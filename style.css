@@ -1,0 +1,162 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  background-color: antiquewhite;
+  padding: 2.2rem;
+  border-radius: 7rem;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  flex-grow: 1;
+}
+
+main {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 1rem;
+  gap: 3rem;
+}
+
+article {
+  display: flex;
+  align-content: flex-start;
+  flex-direction: column;
+  margin: 1rem;
+  background-color: antiquewhite;
+  border-radius: 3rem;
+  padding: 2.2rem;
+}
+
+.header-buttons {
+  background-color: rgba(247, 206, 119, 0.918);
+  border: none;
+  border-radius: 5rem;
+  padding: 1.2rem;
+  font-weight: 700;
+  color: rgb(109, 67, 12);
+  font-size: large;
+  flex-grow: 2;
+  width: 40%;
+}
+
+.logo {
+  width: 3.5rem;
+  margin-right: 30px;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 3rem;
+  color: rgb(109, 67, 12);
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 3rem;
+  color: rgb(109, 67, 12);
+  text-align: center;
+  margin-top: 4rem;
+}
+
+h3 {
+  color: rgb(109, 67, 12);
+}
+
+h4 {
+  color: rgb(109, 67, 12);
+  margin: 0;
+  font-size: x-large;
+  font-weight: 900;
+}
+
+p {
+  color: rgb(109, 67, 12);
+}
+
+article p {
+  line-height: 1.5rem;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 5rem;
+  background-color: antiquewhite;
+}
+
+.cards-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.honey-description h3 {
+  margin-bottom: 0;
+}
+.honey-description p {
+  margin-top: 0;
+}
+
+.price {
+  font-size: 1.2rem;
+}
+
+main button {
+  background-color: rgba(247, 206, 119, 0.918);
+  border: none;
+  border-radius: 5rem;
+  padding: 1rem;
+  font-weight: 700;
+  color: rgb(109, 67, 12);
+  font-size: large;
+  width: 60%;
+  align-self: center;
+  margin-bottom: 1.2rem;
+}
+
+@media screen and (min-width: 300px) {
+  .shop-button {
+    flex-grow: 2;
+    height: 8rem;
+    font-size: 2rem;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  main {
+    flex-wrap: wrap;
+  }
+}
+
+/* @media screen and (min-width: 576px) {
+  header {
+    margin: 0;
+    border-radius: 0;
+  }
+
+  .header-buttons {
+    width: 18%;
+  }
+
+  .cards {
+    width: 40%;
+  }
+} */
